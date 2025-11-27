@@ -1,24 +1,27 @@
-# 📄 Resume Scanner using NLP and Streamlit
 
-A simple and elegant web app that scans resumes (in `.pdf`, `.docx`, or `.txt` format) and compares them with a job description using NLP. It calculates a **match score** based on keyword similarity using TF-IDF and cosine similarity.
+A lightweight NLP-based resume screening tool that extracts text from **PDF, DOCX, and TXT** files and compares it with a predefined job description using **TF-IDF** and **cosine similarity**. Features automated keyword matching, match-percentage calculation, a clean **Streamlit** UI, and full offline functionality. Built with **Python, Streamlit, scikit-learn, and pdfplumber** for fast and reliable resume analysis.
 
----
+### ⭐ Features
 
-## 🚀 Features
-- Upload resume in `.pdf`, `.docx`, or `.txt`
-- Automatically compares with a pre-defined job description
-- Calculates **match percentage**
-- Clean UI with **Streamlit**
-- Works offline
+* Upload resume in `.pdf`, `.docx`, or `.txt`
+* Automatic comparison with a pre-defined job description
+* Calculates **match percentage**
+* Clean UI built with **Streamlit**
+* Works offline
 
----
+### 🛠 Tech Stack
 
-## 💻 Tech Stack
--Python - Core programming language.
-- Streamlit  - Frontend web app.
-- scikit-learn - NLP and similarity calculation.
-- pdfplumber - pdf text extraction.
-- python-docx - word file text extraction
+* **Python** — Core programming language
+* **Streamlit** — Frontend web app
+* **scikit-learn** — NLP & similarity calculation
+* **pdfplumber** — PDF text extraction
+* 
+### 📊 KPIs 
+
+* Increased resume–JD matching accuracy using TF-IDF & cosine similarity
+* Reduced manual screening time by automating text extraction and scoring
+* Delivered instant match-percentage insights for faster shortlisting
+
 
 
 
