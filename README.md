@@ -15,7 +15,7 @@ A lightweight NLP-based resume screening tool that extracts text from **PDF, DOC
 * **Streamlit** — Frontend web app
 * **scikit-learn** — NLP & similarity calculation
 * **pdfplumber** — PDF text extraction
-* 
+  
 ### 📊 KPIs 
 
 * Increased resume–JD matching accuracy using TF-IDF & cosine similarity
